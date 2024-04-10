@@ -80,8 +80,8 @@ export default {
             '/Html/': [
                 {
                     items: [
-                        { text: 'html', link: '/Html/' },
-                        { text: 'css', link: '/Html/one' }
+                        { text: 'html', link: '/HtmlCss/' },
+                        { text: 'css', link: '/HtmlCss/one' }
                     ]
                 }
             ],
