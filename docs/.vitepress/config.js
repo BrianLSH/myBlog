@@ -1,7 +1,7 @@
 export default {
     // 站点级选项
     title: '念歪的道德经',
-    base: '/myBlog/',
+    base: '/',
     description: '一人一世界',
 
     themeConfig: {
