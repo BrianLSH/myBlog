@@ -3,11 +3,14 @@ export default {
     title: '念歪的道德经',
     base: '/',
     description: '一人一世界',
-
     themeConfig: {
         // 主题级选项
         nav: [
-            { text: 'HtmlCss', link: '/HtmlCss/index' },
+            { text: 'HtmlCss', //这个不顶用,实际路径看文件路径
+                //默认访问页面
+                items: [{ text: 'html',link:'/Html/index.md'},
+                    { text: 'css',link:'/Css/index.md'}]
+            },
             { text: 'Javascript', link: '/Javascript/index' },
             { text: 'Vue', link: '/vue/index' },
             { text: 'React', link: '/react/index' },
@@ -77,11 +80,20 @@ export default {
                     ]
                 }
             ],
-            '/HtmlCss/': [
+            // 注意大小写,基于文件路径
+            '/Html/': [
                 {
                     items: [
-                        { text: 'html', link: '/HtmlCss/' },
-                        { text: 'css', link: '/HtmlCss/one' }
+                        { text: '基础', link: '/Html/one' },
+                        { text: '优化', link: '/Html/two' }
+                    ]
+                }
+            ],
+            '/Css/': [
+                {
+                    items: [
+                        { text: '选择器', link: '/Css/css' },
+                        { text: '乌拉', link: '/Css/one' }
                     ]
                 }
             ],

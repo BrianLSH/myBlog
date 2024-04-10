@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vitepress": "^1.0.2"
+  },
+  "dependencies": {
+    "vuepress-plugin-anchor-right": "^0.0.1-beta.18"
   }
 }
