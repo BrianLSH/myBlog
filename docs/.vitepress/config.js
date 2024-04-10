@@ -77,7 +77,7 @@ export default {
                     ]
                 }
             ],
-            '/Html/': [
+            '/HtmlCss/': [
                 {
                     items: [
                         { text: 'html', link: '/HtmlCss/' },
