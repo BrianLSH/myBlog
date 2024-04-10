@@ -36,9 +36,6 @@ import { default as default11 } from "D:/react/myBlog/node_modules/vitepress/dis
 import { default as default12 } from "D:/react/myBlog/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
 import { default as default13 } from "D:/react/myBlog/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 
-// node_modules/vitepress/dist/client/shared.js
-var inBrowser = typeof document !== "undefined";
-
 // node_modules/vitepress/dist/client/theme-default/support/utils.js
 import { withBase } from "vitepress";
 
@@ -91,14 +88,6 @@ function addBase(items, _base) {
     if (item.items)
       item.items = addBase(item.items, base);
     return item;
-  });
-}
-
-// node_modules/vitepress/dist/client/theme-default/composables/hash.js
-var hashRef = ref(inBrowser ? location.hash : "");
-if (inBrowser) {
-  window.addEventListener("hashchange", () => {
-    hashRef.value = location.hash;
   });
 }
 
