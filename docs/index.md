@@ -18,7 +18,7 @@ actions:
 features:
   - icon: ⚡️
     title: vite + vue3
-    details: 眼见不如手写
+    details: 眼见不如手写。
   - icon: 🖖
     title: 知新
     details: 手写不如心记
