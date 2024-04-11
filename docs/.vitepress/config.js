@@ -4,6 +4,7 @@ export default {
     base: '/',
     description: '一人一世界',
     themeConfig: {
+        sidebarDepth: 3, //页面小导航深度
         // 主题级选项
         nav: [
             { text: 'HtmlCss', //这个不顶用,实际路径看文件路径
@@ -12,6 +13,7 @@ export default {
                     { text: 'css',link:'/Css/index.md'}]
             },
             { text: 'Javascript', link: '/Javascript/index' },
+            { text: 'TypeScript', link: '/ts/index' },
             { text: 'Vue', link: '/vue/index' },
             { text: 'React', link: '/react/index' },
             { text: 'Python', link: '/Python/index' },
@@ -20,6 +22,20 @@ export default {
             { text: 'Go', link: '/Go/index' },
         ], 
         sidebar: {
+           '/ts/': [
+               {
+                   items: [
+                       { text: '数据类型', link: '/ts/数据类型' },
+                       { text: '体操', link: '/ts/jump' },
+                       { text: '对象', link: '/ts/object' },
+                       { text: '数组', link: '/ts/array' },
+                       { text: '继承', link: '/ts/inter' },
+                       { text: '函数', link: '/ts/函数' },
+                       { text: '字符串', link: '/ts/str' },
+                       { text: '布尔', link: '/ts/boo' },
+                   ]
+               }
+           ],
             '/vue/': [
                 {
                     items: [
